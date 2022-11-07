@@ -29,7 +29,7 @@ A 0 0 0 0 1, 67.5, 212.5
           index="0"
           role="presentation"
           shape-rendering="auto"
-          style="fill: gold; stroke: gold; padding: 8px; stroke-width: 0;"
+          style="fill: #E8F044; stroke: #E8F044; padding: 8px; stroke-width: 0;"
         />
         <path
           d="M 207.5, 162.5 
@@ -44,7 +44,7 @@ A 0 0 0 0 1, 242.5, 162.5
           index="1"
           role="presentation"
           shape-rendering="auto"
-          style="fill: gold; stroke: gold; padding: 8px; stroke-width: 0;"
+          style="fill: #E8F044; stroke: #E8F044; padding: 8px; stroke-width: 0;"
         />
         <path
           d="M 382.5, 125 
@@ -59,7 +59,7 @@ A 0 0 0 0 1, 417.5, 125
           index="2"
           role="presentation"
           shape-rendering="auto"
-          style="fill: gold; stroke: gold; padding: 8px; stroke-width: 0;"
+          style="fill: #E8F044; stroke: #E8F044; padding: 8px; stroke-width: 0;"
         />
       </g>
       <g
@@ -78,7 +78,7 @@ A 0 0 0 0 1, 67.5, 225
           index="0"
           role="presentation"
           shape-rendering="auto"
-          style="fill: orange; stroke: orange; padding: 8px; stroke-width: 0;"
+          style="fill: #DC2ADE; stroke: #DC2ADE; padding: 8px; stroke-width: 0;"
         />
         <path
           d="M 207.5, 212.5 
@@ -93,7 +93,7 @@ A 0 0 0 0 1, 242.5, 212.5
           index="1"
           role="presentation"
           shape-rendering="auto"
-          style="fill: orange; stroke: orange; padding: 8px; stroke-width: 0;"
+          style="fill: #DC2ADE; stroke: #DC2ADE; padding: 8px; stroke-width: 0;"
         />
         <path
           d="M 382.5, 187.5 
@@ -108,7 +108,7 @@ A 0 0 0 0 1, 417.5, 187.5
           index="2"
           role="presentation"
           shape-rendering="auto"
-          style="fill: orange; stroke: orange; padding: 8px; stroke-width: 0;"
+          style="fill: #DC2ADE; stroke: #DC2ADE; padding: 8px; stroke-width: 0;"
         />
       </g>
       <g
@@ -127,7 +127,7 @@ A 0 0 0 0 1, 67.5, 250
           index="0"
           role="presentation"
           shape-rendering="auto"
-          style="fill: tomato; stroke: tomato; padding: 8px; stroke-width: 0;"
+          style="fill: #323EDD; stroke: #323EDD; padding: 8px; stroke-width: 0;"
         />
         <path
           d="M 207.5, 250 
@@ -142,7 +142,7 @@ A 0 0 0 0 1, 242.5, 250
           index="1"
           role="presentation"
           shape-rendering="auto"
-          style="fill: tomato; stroke: tomato; padding: 8px; stroke-width: 0;"
+          style="fill: #323EDD; stroke: #323EDD; padding: 8px; stroke-width: 0;"
         />
         <path
           d="M 382.5, 250 
@@ -157,7 +157,7 @@ A 0 0 0 0 1, 417.5, 250
           index="2"
           role="presentation"
           shape-rendering="auto"
-          style="fill: tomato; stroke: tomato; padding: 8px; stroke-width: 0;"
+          style="fill: #323EDD; stroke: #323EDD; padding: 8px; stroke-width: 0;"
         />
       </g>
     </svg>

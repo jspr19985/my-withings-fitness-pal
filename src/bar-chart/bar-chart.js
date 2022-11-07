@@ -4,7 +4,7 @@ import { VictoryBar, VictoryStack } from "victory";
 function BarChart() {
     return (
         <VictoryStack
-            colorScale={["tomato", "orange", "gold"]}
+            colorScale={["#323EDD", "#DC2ADE", "#E8F044"]}
         >
             <VictoryBar
                 data={[{ x: "a", y: 2 }, { x: "b", y: 3 }, { x: "c", y: 5 }]}

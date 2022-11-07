@@ -8,7 +8,7 @@ function LineChart() {
         >
             <VictoryLine
                 style={{
-                    data: { stroke: "#c43a31" },
+                    data: { stroke: "#4D089A" },
                     parent: { border: "1px solid #ccc" }
                 }}
                 data={[
