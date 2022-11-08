@@ -4,7 +4,7 @@ exports[`App renders Header 1`] = `
 <div>
   <div
     class="VictoryContainer"
-    style="height: 100%; width: 100%; pointer-events: none; position: relative;"
+    style="height: 100%; width: 100%; user-select: none; pointer-events: none; position: relative;"
   >
     <svg
       height="300"
@@ -16,149 +16,520 @@ exports[`App renders Header 1`] = `
       <g
         role="presentation"
       >
-        <path
-          d="M 32.5, 212.5 
-A 0 0 0 0 1, 32.5, 212.5 
-L 32.5, 175 
-A 0 0 0 0 1, 32.5, 175 
-L 67.5, 175 
-A 0 0 0 0 1, 67.5, 175 
-L 67.5, 212.5 
-A 0 0 0 0 1, 67.5, 212.5 
- z"
-          index="0"
+        <line
           role="presentation"
           shape-rendering="auto"
-          style="fill: #E8F044; stroke: #E8F044; padding: 8px; stroke-width: 0;"
+          style="stroke: white; fill: transparent; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
+          vector-effect="non-scaling-stroke"
+          x1="50"
+          x2="400"
+          y1="250"
+          y2="250"
         />
-        <path
-          d="M 207.5, 162.5 
-A 0 0 0 0 1, 207.5, 162.5 
-L 207.5, 137.5 
-A 0 0 0 0 1, 207.5, 137.5 
-L 242.5, 137.5 
-A 0 0 0 0 1, 242.5, 137.5 
-L 242.5, 162.5 
-A 0 0 0 0 1, 242.5, 162.5 
- z"
-          index="1"
+        <text
+          direction="inherit"
+          dx="0"
+          id="chart-axis-0-axisLabel-0"
+          x="225"
+          y="283.55"
+        >
+          <tspan
+            dx="0"
+            dy="0"
+            style="stroke: white; font-size: 10px; font-family: Major Mono Display; text-anchor: middle; letter-spacing: normal; padding: 25px; fill: #252525;"
+            text-anchor="middle"
+            x="225"
+          >
+            Label
+          </tspan>
+        </text>
+        <g
           role="presentation"
-          shape-rendering="auto"
-          style="fill: #E8F044; stroke: #E8F044; padding: 8px; stroke-width: 0;"
-        />
-        <path
-          d="M 382.5, 125 
-A 0 0 0 0 1, 382.5, 125 
-L 382.5, 50 
-A 0 0 0 0 1, 382.5, 50 
-L 417.5, 50 
-A 0 0 0 0 1, 417.5, 50 
-L 417.5, 125 
-A 0 0 0 0 1, 417.5, 125 
- z"
-          index="2"
+        >
+          <line
+            role="presentation"
+            shape-rendering="auto"
+            style="stroke: white; fill: transparent; size: 1px;"
+            vector-effect="non-scaling-stroke"
+            x1="70"
+            x2="70"
+            y1="250"
+            y2="251"
+          />
+          <text
+            direction="inherit"
+            dx="0"
+            id="chart-axis-0-tickLabels-0"
+            x="70"
+            y="269.55"
+          >
+            <tspan
+              dx="0"
+              dy="0"
+              style="stroke: white; font-size: 10px; font-family: Major Mono Display; letter-spacing: normal; padding: 10px; fill: #252525;"
+              text-anchor="middle"
+              x="70"
+            >
+              Quarter 1
+            </tspan>
+          </text>
+        </g>
+        <g
           role="presentation"
-          shape-rendering="auto"
-          style="fill: #E8F044; stroke: #E8F044; padding: 8px; stroke-width: 0;"
-        />
+        >
+          <line
+            role="presentation"
+            shape-rendering="auto"
+            style="stroke: white; fill: transparent; size: 1px;"
+            vector-effect="non-scaling-stroke"
+            x1="173.33333333333334"
+            x2="173.33333333333334"
+            y1="250"
+            y2="251"
+          />
+          <text
+            direction="inherit"
+            dx="0"
+            id="chart-axis-0-tickLabels-1"
+            x="173.33333333333334"
+            y="269.55"
+          >
+            <tspan
+              dx="0"
+              dy="0"
+              style="stroke: white; font-size: 10px; font-family: Major Mono Display; letter-spacing: normal; padding: 10px; fill: #252525;"
+              text-anchor="middle"
+              x="173.33333333333334"
+            >
+              Quarter 2
+            </tspan>
+          </text>
+        </g>
+        <g
+          role="presentation"
+        >
+          <line
+            role="presentation"
+            shape-rendering="auto"
+            style="stroke: white; fill: transparent; size: 1px;"
+            vector-effect="non-scaling-stroke"
+            x1="276.66666666666663"
+            x2="276.66666666666663"
+            y1="250"
+            y2="251"
+          />
+          <text
+            direction="inherit"
+            dx="0"
+            id="chart-axis-0-tickLabels-2"
+            x="276.66666666666663"
+            y="269.55"
+          >
+            <tspan
+              dx="0"
+              dy="0"
+              style="stroke: white; font-size: 10px; font-family: Major Mono Display; letter-spacing: normal; padding: 10px; fill: #252525;"
+              text-anchor="middle"
+              x="276.66666666666663"
+            >
+              Quarter 3
+            </tspan>
+          </text>
+        </g>
+        <g
+          role="presentation"
+        >
+          <line
+            role="presentation"
+            shape-rendering="auto"
+            style="stroke: white; fill: transparent; size: 1px;"
+            vector-effect="non-scaling-stroke"
+            x1="380"
+            x2="380"
+            y1="250"
+            y2="251"
+          />
+          <text
+            direction="inherit"
+            dx="0"
+            id="chart-axis-0-tickLabels-3"
+            x="380"
+            y="269.55"
+          >
+            <tspan
+              dx="0"
+              dy="0"
+              style="stroke: white; font-size: 10px; font-family: Major Mono Display; letter-spacing: normal; padding: 10px; fill: #252525;"
+              text-anchor="middle"
+              x="380"
+            >
+              Quarter 4
+            </tspan>
+          </text>
+        </g>
       </g>
       <g
         role="presentation"
       >
-        <path
-          d="M 32.5, 225 
-A 0 0 0 0 1, 32.5, 225 
-L 32.5, 212.5 
-A 0 0 0 0 1, 32.5, 212.5 
-L 67.5, 212.5 
-A 0 0 0 0 1, 67.5, 212.5 
-L 67.5, 225 
-A 0 0 0 0 1, 67.5, 225 
- z"
-          index="0"
+        <line
           role="presentation"
           shape-rendering="auto"
-          style="fill: #DC2ADE; stroke: #DC2ADE; padding: 8px; stroke-width: 0;"
+          style="stroke: white; fill: transparent; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
+          vector-effect="non-scaling-stroke"
+          x1="50"
+          x2="50"
+          y1="50"
+          y2="250"
         />
-        <path
-          d="M 207.5, 212.5 
-A 0 0 0 0 1, 207.5, 212.5 
-L 207.5, 162.5 
-A 0 0 0 0 1, 207.5, 162.5 
-L 242.5, 162.5 
-A 0 0 0 0 1, 242.5, 162.5 
-L 242.5, 212.5 
-A 0 0 0 0 1, 242.5, 212.5 
- z"
-          index="1"
+        <g
           role="presentation"
-          shape-rendering="auto"
-          style="fill: #DC2ADE; stroke: #DC2ADE; padding: 8px; stroke-width: 0;"
-        />
-        <path
-          d="M 382.5, 187.5 
-A 0 0 0 0 1, 382.5, 187.5 
-L 382.5, 125 
-A 0 0 0 0 1, 382.5, 125 
-L 417.5, 125 
-A 0 0 0 0 1, 417.5, 125 
-L 417.5, 187.5 
-A 0 0 0 0 1, 417.5, 187.5 
- z"
-          index="2"
+        >
+          <line
+            role="presentation"
+            shape-rendering="auto"
+            style="stroke: white; fill: transparent; size: 1px;"
+            vector-effect="non-scaling-stroke"
+            x1="50"
+            x2="49"
+            y1="216.4781060129897"
+            y2="216.4781060129897"
+          />
+          <text
+            direction="inherit"
+            dx="0"
+            id="chart-axis-1-tickLabels-0"
+            x="39"
+            y="220.02810601298972"
+          >
+            <tspan
+              dx="0"
+              dy="0"
+              style="stroke: white; font-size: 10px; font-family: Major Mono Display; letter-spacing: normal; padding: 10px; fill: #252525;"
+              text-anchor="end"
+              x="39"
+            >
+              $10k
+            </tspan>
+          </text>
+        </g>
+        <g
           role="presentation"
-          shape-rendering="auto"
-          style="fill: #DC2ADE; stroke: #DC2ADE; padding: 8px; stroke-width: 0;"
-        />
+        >
+          <line
+            role="presentation"
+            shape-rendering="auto"
+            style="stroke: white; fill: transparent; size: 1px;"
+            vector-effect="non-scaling-stroke"
+            x1="50"
+            x2="49"
+            y1="182.95621202597948"
+            y2="182.95621202597948"
+          />
+          <text
+            direction="inherit"
+            dx="0"
+            id="chart-axis-1-tickLabels-1"
+            x="39"
+            y="186.5062120259795"
+          >
+            <tspan
+              dx="0"
+              dy="0"
+              style="stroke: white; font-size: 10px; font-family: Major Mono Display; letter-spacing: normal; padding: 10px; fill: #252525;"
+              text-anchor="end"
+              x="39"
+            >
+              $20k
+            </tspan>
+          </text>
+        </g>
+        <g
+          role="presentation"
+        >
+          <line
+            role="presentation"
+            shape-rendering="auto"
+            style="stroke: white; fill: transparent; size: 1px;"
+            vector-effect="non-scaling-stroke"
+            x1="50"
+            x2="49"
+            y1="149.4343180389692"
+            y2="149.4343180389692"
+          />
+          <text
+            direction="inherit"
+            dx="0"
+            id="chart-axis-1-tickLabels-2"
+            x="39"
+            y="152.9843180389692"
+          >
+            <tspan
+              dx="0"
+              dy="0"
+              style="stroke: white; font-size: 10px; font-family: Major Mono Display; letter-spacing: normal; padding: 10px; fill: #252525;"
+              text-anchor="end"
+              x="39"
+            >
+              $30k
+            </tspan>
+          </text>
+        </g>
+        <g
+          role="presentation"
+        >
+          <line
+            role="presentation"
+            shape-rendering="auto"
+            style="stroke: white; fill: transparent; size: 1px;"
+            vector-effect="non-scaling-stroke"
+            x1="50"
+            x2="49"
+            y1="115.91242405195894"
+            y2="115.91242405195894"
+          />
+          <text
+            direction="inherit"
+            dx="0"
+            id="chart-axis-1-tickLabels-3"
+            x="39"
+            y="119.46242405195893"
+          >
+            <tspan
+              dx="0"
+              dy="0"
+              style="stroke: white; font-size: 10px; font-family: Major Mono Display; letter-spacing: normal; padding: 10px; fill: #252525;"
+              text-anchor="end"
+              x="39"
+            >
+              $40k
+            </tspan>
+          </text>
+        </g>
+        <g
+          role="presentation"
+        >
+          <line
+            role="presentation"
+            shape-rendering="auto"
+            style="stroke: white; fill: transparent; size: 1px;"
+            vector-effect="non-scaling-stroke"
+            x1="50"
+            x2="49"
+            y1="82.39053006494868"
+            y2="82.39053006494868"
+          />
+          <text
+            direction="inherit"
+            dx="0"
+            id="chart-axis-1-tickLabels-4"
+            x="39"
+            y="85.94053006494867"
+          >
+            <tspan
+              dx="0"
+              dy="0"
+              style="stroke: white; font-size: 10px; font-family: Major Mono Display; letter-spacing: normal; padding: 10px; fill: #252525;"
+              text-anchor="end"
+              x="39"
+            >
+              $50k
+            </tspan>
+          </text>
+        </g>
       </g>
-      <g
-        role="presentation"
-      >
-        <path
-          d="M 32.5, 250 
-A 0 0 0 0 1, 32.5, 250 
-L 32.5, 225 
-A 0 0 0 0 1, 32.5, 225 
-L 67.5, 225 
-A 0 0 0 0 1, 67.5, 225 
-L 67.5, 250 
-A 0 0 0 0 1, 67.5, 250 
- z"
-          index="0"
+      <g>
+        <g
           role="presentation"
-          shape-rendering="auto"
-          style="fill: #323EDD; stroke: #323EDD; padding: 8px; stroke-width: 0;"
-        />
-        <path
-          d="M 207.5, 250 
-A 0 0 0 0 1, 207.5, 250 
-L 207.5, 212.5 
-A 0 0 0 0 1, 207.5, 212.5 
-L 242.5, 212.5 
-A 0 0 0 0 1, 242.5, 212.5 
-L 242.5, 250 
-A 0 0 0 0 1, 242.5, 250 
+        >
+          <path
+            d="M 55.416666666666664, 156.13869683637122 
+A 0 0 0 0 1, 55.416666666666664, 156.13869683637122 
+L 55.416666666666664, 117.58851875130945 
+A 0 0 0 0 1, 55.416666666666664, 117.58851875130945 
+L 84.58333333333333, 117.58851875130945 
+A 0 0 0 0 1, 84.58333333333333, 117.58851875130945 
+L 84.58333333333333, 156.13869683637122 
+A 0 0 0 0 1, 84.58333333333333, 156.13869683637122 
  z"
-          index="1"
-          role="presentation"
-          shape-rendering="auto"
-          style="fill: #323EDD; stroke: #323EDD; padding: 8px; stroke-width: 0;"
-        />
-        <path
-          d="M 382.5, 250 
-A 0 0 0 0 1, 382.5, 250 
-L 382.5, 187.5 
-A 0 0 0 0 1, 382.5, 187.5 
-L 417.5, 187.5 
-A 0 0 0 0 1, 417.5, 187.5 
-L 417.5, 250 
-A 0 0 0 0 1, 417.5, 250 
+            index="0"
+            role="presentation"
+            shape-rendering="auto"
+            style="fill: #E8F044; stroke: #E8F044; padding: 8px; stroke-width: 0;"
+          />
+          <path
+            d="M 158.75, 152.78650743767022 
+A 0 0 0 0 1, 158.75, 152.78650743767022 
+L 158.75, 108.36999790488161 
+A 0 0 0 0 1, 158.75, 108.36999790488161 
+L 187.91666666666669, 108.36999790488161 
+A 0 0 0 0 1, 187.91666666666669, 108.36999790488161 
+L 187.91666666666669, 152.78650743767022 
+A 0 0 0 0 1, 187.91666666666669, 152.78650743767022 
  z"
-          index="2"
+            index="1"
+            role="presentation"
+            shape-rendering="auto"
+            style="fill: #E8F044; stroke: #E8F044; padding: 8px; stroke-width: 0;"
+          />
+          <path
+            d="M 262.0833333333333, 136.86360779384034 
+A 0 0 0 0 1, 262.0833333333333, 136.86360779384034 
+L 262.0833333333333, 69.81981981981981 
+A 0 0 0 0 1, 262.0833333333333, 69.81981981981981 
+L 291.24999999999994, 69.81981981981981 
+A 0 0 0 0 1, 291.24999999999994, 69.81981981981981 
+L 291.24999999999994, 136.86360779384034 
+A 0 0 0 0 1, 291.24999999999994, 136.86360779384034 
+ z"
+            index="2"
+            role="presentation"
+            shape-rendering="auto"
+            style="fill: #E8F044; stroke: #E8F044; padding: 8px; stroke-width: 0;"
+          />
+          <path
+            d="M 365.4166666666667, 142.72993924156714 
+A 0 0 0 0 1, 365.4166666666667, 142.72993924156714 
+L 365.4166666666667, 90.77100356170125 
+A 0 0 0 0 1, 365.4166666666667, 90.77100356170125 
+L 394.5833333333333, 90.77100356170125 
+A 0 0 0 0 1, 394.5833333333333, 90.77100356170125 
+L 394.5833333333333, 142.72993924156714 
+A 0 0 0 0 1, 394.5833333333333, 142.72993924156714 
+ z"
+            index="3"
+            role="presentation"
+            shape-rendering="auto"
+            style="fill: #E8F044; stroke: #E8F044; padding: 8px; stroke-width: 0;"
+          />
+        </g>
+        <g
           role="presentation"
-          shape-rendering="auto"
-          style="fill: #323EDD; stroke: #323EDD; padding: 8px; stroke-width: 0;"
-        />
+        >
+          <path
+            d="M 55.416666666666664, 206.42153781688666 
+A 0 0 0 0 1, 55.416666666666664, 206.42153781688666 
+L 55.416666666666664, 156.13869683637122 
+A 0 0 0 0 1, 55.416666666666664, 156.13869683637122 
+L 84.58333333333333, 156.13869683637122 
+A 0 0 0 0 1, 84.58333333333333, 156.13869683637122 
+L 84.58333333333333, 206.42153781688666 
+A 0 0 0 0 1, 84.58333333333333, 206.42153781688666 
+ z"
+            index="0"
+            role="presentation"
+            shape-rendering="auto"
+            style="fill: #DC2ADE; stroke: #DC2ADE; padding: 8px; stroke-width: 0;"
+          />
+          <path
+            d="M 158.75, 194.68887492143307 
+A 0 0 0 0 1, 158.75, 194.68887492143307 
+L 158.75, 152.78650743767022 
+A 0 0 0 0 1, 158.75, 152.78650743767022 
+L 187.91666666666669, 152.78650743767022 
+A 0 0 0 0 1, 187.91666666666669, 152.78650743767022 
+L 187.91666666666669, 194.68887492143307 
+A 0 0 0 0 1, 187.91666666666669, 194.68887492143307 
+ z"
+            index="1"
+            role="presentation"
+            shape-rendering="auto"
+            style="fill: #DC2ADE; stroke: #DC2ADE; padding: 8px; stroke-width: 0;"
+          />
+          <path
+            d="M 262.0833333333333, 202.2313010685104 
+A 0 0 0 0 1, 262.0833333333333, 202.2313010685104 
+L 262.0833333333333, 136.86360779384034 
+A 0 0 0 0 1, 262.0833333333333, 136.86360779384034 
+L 291.24999999999994, 136.86360779384034 
+A 0 0 0 0 1, 291.24999999999994, 136.86360779384034 
+L 291.24999999999994, 202.2313010685104 
+A 0 0 0 0 1, 291.24999999999994, 202.2313010685104 
+ z"
+            index="2"
+            role="presentation"
+            shape-rendering="auto"
+            style="fill: #DC2ADE; stroke: #DC2ADE; padding: 8px; stroke-width: 0;"
+          />
+          <path
+            d="M 365.4166666666667, 186.30840142468048 
+A 0 0 0 0 1, 365.4166666666667, 186.30840142468048 
+L 365.4166666666667, 142.72993924156714 
+A 0 0 0 0 1, 365.4166666666667, 142.72993924156714 
+L 394.5833333333333, 142.72993924156714 
+A 0 0 0 0 1, 394.5833333333333, 142.72993924156714 
+L 394.5833333333333, 186.30840142468048 
+A 0 0 0 0 1, 394.5833333333333, 186.30840142468048 
+ z"
+            index="3"
+            role="presentation"
+            shape-rendering="auto"
+            style="fill: #DC2ADE; stroke: #DC2ADE; padding: 8px; stroke-width: 0;"
+          />
+        </g>
+        <g
+          role="presentation"
+        >
+          <path
+            d="M 55.416666666666664, 250 
+A 0 0 0 0 1, 55.416666666666664, 250 
+L 55.416666666666664, 206.42153781688666 
+A 0 0 0 0 1, 55.416666666666664, 206.42153781688666 
+L 84.58333333333333, 206.42153781688666 
+A 0 0 0 0 1, 84.58333333333333, 206.42153781688666 
+L 84.58333333333333, 250 
+A 0 0 0 0 1, 84.58333333333333, 250 
+ z"
+            index="0"
+            role="presentation"
+            shape-rendering="auto"
+            style="fill: #323EDD; stroke: #323EDD; padding: 8px; stroke-width: 0;"
+          />
+          <path
+            d="M 158.75, 250 
+A 0 0 0 0 1, 158.75, 250 
+L 158.75, 194.68887492143307 
+A 0 0 0 0 1, 158.75, 194.68887492143307 
+L 187.91666666666669, 194.68887492143307 
+A 0 0 0 0 1, 187.91666666666669, 194.68887492143307 
+L 187.91666666666669, 250 
+A 0 0 0 0 1, 187.91666666666669, 250 
+ z"
+            index="1"
+            role="presentation"
+            shape-rendering="auto"
+            style="fill: #323EDD; stroke: #323EDD; padding: 8px; stroke-width: 0;"
+          />
+          <path
+            d="M 262.0833333333333, 250 
+A 0 0 0 0 1, 262.0833333333333, 250 
+L 262.0833333333333, 202.2313010685104 
+A 0 0 0 0 1, 262.0833333333333, 202.2313010685104 
+L 291.24999999999994, 202.2313010685104 
+A 0 0 0 0 1, 291.24999999999994, 202.2313010685104 
+L 291.24999999999994, 250 
+A 0 0 0 0 1, 291.24999999999994, 250 
+ z"
+            index="2"
+            role="presentation"
+            shape-rendering="auto"
+            style="fill: #323EDD; stroke: #323EDD; padding: 8px; stroke-width: 0;"
+          />
+          <path
+            d="M 365.4166666666667, 250 
+A 0 0 0 0 1, 365.4166666666667, 250 
+L 365.4166666666667, 186.30840142468048 
+A 0 0 0 0 1, 365.4166666666667, 186.30840142468048 
+L 394.5833333333333, 186.30840142468048 
+A 0 0 0 0 1, 394.5833333333333, 186.30840142468048 
+L 394.5833333333333, 250 
+A 0 0 0 0 1, 394.5833333333333, 250 
+ z"
+            index="3"
+            role="presentation"
+            shape-rendering="auto"
+            style="fill: #323EDD; stroke: #323EDD; padding: 8px; stroke-width: 0;"
+          />
+        </g>
       </g>
     </svg>
     <div
