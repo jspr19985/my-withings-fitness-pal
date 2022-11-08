@@ -1,11 +1,19 @@
-import { VictoryChart, VictoryLine, VictoryTheme } from "victory";
+import { VictoryChart, VictoryLine, VictoryAxis } from "victory";
+import { axisStyle } from "../utils/chart-utils/axis-style";
 
 
 function LineChart() {
     return (
         <VictoryChart
-            theme={VictoryTheme.material}
         >
+            <VictoryAxis
+                label="Label"
+                style={axisStyle}
+            />
+            <VictoryAxis
+                dependentAxis
+                style={axisStyle}
+            />
             <VictoryLine
                 style={{
                     data: { stroke: "#4D089A" },

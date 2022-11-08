@@ -7,83 +7,66 @@ exports[`App renders Header 1`] = `
     style="height: 100%; width: 100%; user-select: none; pointer-events: none; position: relative;"
   >
     <svg
-      height="350"
+      height="300"
       role="img"
       style="pointer-events: all; width: 100%; height: 100%;"
-      viewBox="0 0 350 350"
-      width="350"
+      viewBox="0 0 450 300"
+      width="450"
     >
-      <g
-        clip-path="url(#victory-clip-2)"
-        style="border: 1px solid #ccc; width: 100%; height: 100%;"
-      >
-        <defs>
-          <clippath
-            id="victory-clip-2"
-          >
-            <rect
-              height="250"
-              vector-effect="non-scaling-stroke"
-              width="250"
-              x="50"
-              y="50"
-            />
-          </clippath>
-        </defs>
-        <path
-          d="M50,300L112.5,250L175,150L237.5,200L300,50"
-          role="presentation"
-          shape-rendering="auto"
-          style="fill: transparent; stroke: #4D089A; opacity: 1; stroke-width: 2;"
-        />
-      </g>
       <g
         role="presentation"
       >
         <line
           role="presentation"
           shape-rendering="auto"
-          style="stroke: #90A4AE; fill: transparent; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;"
+          style="stroke: white; fill: transparent; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
           vector-effect="non-scaling-stroke"
           x1="50"
-          x2="300"
-          y1="300"
-          y2="300"
+          x2="400"
+          y1="250"
+          y2="250"
         />
+        <text
+          direction="inherit"
+          dx="0"
+          id="chart-axis-0-axisLabel-0"
+          x="225"
+          y="283.55"
+        >
+          <tspan
+            dx="0"
+            dy="0"
+            style="stroke: white; font-size: 10px; font-family: Major Mono Display; text-anchor: middle; letter-spacing: normal; padding: 25px; fill: #252525;"
+            text-anchor="middle"
+            x="225"
+          >
+            Label
+          </tspan>
+        </text>
         <g
           role="presentation"
         >
           <line
             role="presentation"
             shape-rendering="auto"
-            style="stroke: #ECEFF1; fill: none; stroke-dasharray: 10, 5; stroke-linecap: round; stroke-linejoin: round; pointer-events: painted;"
+            style="stroke: white; fill: transparent; size: 1px;"
             vector-effect="non-scaling-stroke"
             x1="50"
             x2="50"
-            y1="300"
-            y2="50"
-          />
-          <line
-            role="presentation"
-            shape-rendering="auto"
-            style="stroke: #90A4AE; fill: transparent; size: 5px; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
-            vector-effect="non-scaling-stroke"
-            x1="50"
-            x2="50"
-            y1="300"
-            y2="305"
+            y1="250"
+            y2="251"
           />
           <text
             direction="inherit"
             dx="0"
-            id="chart-axis-1-tickLabels-0"
+            id="chart-axis-0-tickLabels-0"
             x="50"
-            y="323.26"
+            y="269.55"
           >
             <tspan
               dx="0"
               dy="0"
-              style="font-family: 'Helvetica Neue', 'Helvetica', sans-serif; font-size: 12px; letter-spacing: normal; padding: 8px; fill: #455A64; stroke: transparent; stroke-width: 0;"
+              style="stroke: white; font-size: 10px; font-family: Major Mono Display; letter-spacing: normal; padding: 10px; fill: #252525;"
               text-anchor="middle"
               x="50"
             >
@@ -97,36 +80,26 @@ exports[`App renders Header 1`] = `
           <line
             role="presentation"
             shape-rendering="auto"
-            style="stroke: #ECEFF1; fill: none; stroke-dasharray: 10, 5; stroke-linecap: round; stroke-linejoin: round; pointer-events: painted;"
+            style="stroke: white; fill: transparent; size: 1px;"
             vector-effect="non-scaling-stroke"
-            x1="112.5"
-            x2="112.5"
-            y1="300"
-            y2="50"
-          />
-          <line
-            role="presentation"
-            shape-rendering="auto"
-            style="stroke: #90A4AE; fill: transparent; size: 5px; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
-            vector-effect="non-scaling-stroke"
-            x1="112.5"
-            x2="112.5"
-            y1="300"
-            y2="305"
+            x1="137.5"
+            x2="137.5"
+            y1="250"
+            y2="251"
           />
           <text
             direction="inherit"
             dx="0"
-            id="chart-axis-1-tickLabels-1"
-            x="112.5"
-            y="323.26"
+            id="chart-axis-0-tickLabels-1"
+            x="137.5"
+            y="269.55"
           >
             <tspan
               dx="0"
               dy="0"
-              style="font-family: 'Helvetica Neue', 'Helvetica', sans-serif; font-size: 12px; letter-spacing: normal; padding: 8px; fill: #455A64; stroke: transparent; stroke-width: 0;"
+              style="stroke: white; font-size: 10px; font-family: Major Mono Display; letter-spacing: normal; padding: 10px; fill: #252525;"
               text-anchor="middle"
-              x="112.5"
+              x="137.5"
             >
               2.0
             </tspan>
@@ -138,36 +111,26 @@ exports[`App renders Header 1`] = `
           <line
             role="presentation"
             shape-rendering="auto"
-            style="stroke: #ECEFF1; fill: none; stroke-dasharray: 10, 5; stroke-linecap: round; stroke-linejoin: round; pointer-events: painted;"
+            style="stroke: white; fill: transparent; size: 1px;"
             vector-effect="non-scaling-stroke"
-            x1="175"
-            x2="175"
-            y1="300"
-            y2="50"
-          />
-          <line
-            role="presentation"
-            shape-rendering="auto"
-            style="stroke: #90A4AE; fill: transparent; size: 5px; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
-            vector-effect="non-scaling-stroke"
-            x1="175"
-            x2="175"
-            y1="300"
-            y2="305"
+            x1="225"
+            x2="225"
+            y1="250"
+            y2="251"
           />
           <text
             direction="inherit"
             dx="0"
-            id="chart-axis-1-tickLabels-2"
-            x="175"
-            y="323.26"
+            id="chart-axis-0-tickLabels-2"
+            x="225"
+            y="269.55"
           >
             <tspan
               dx="0"
               dy="0"
-              style="font-family: 'Helvetica Neue', 'Helvetica', sans-serif; font-size: 12px; letter-spacing: normal; padding: 8px; fill: #455A64; stroke: transparent; stroke-width: 0;"
+              style="stroke: white; font-size: 10px; font-family: Major Mono Display; letter-spacing: normal; padding: 10px; fill: #252525;"
               text-anchor="middle"
-              x="175"
+              x="225"
             >
               3.0
             </tspan>
@@ -179,36 +142,26 @@ exports[`App renders Header 1`] = `
           <line
             role="presentation"
             shape-rendering="auto"
-            style="stroke: #ECEFF1; fill: none; stroke-dasharray: 10, 5; stroke-linecap: round; stroke-linejoin: round; pointer-events: painted;"
+            style="stroke: white; fill: transparent; size: 1px;"
             vector-effect="non-scaling-stroke"
-            x1="237.5"
-            x2="237.5"
-            y1="300"
-            y2="50"
-          />
-          <line
-            role="presentation"
-            shape-rendering="auto"
-            style="stroke: #90A4AE; fill: transparent; size: 5px; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
-            vector-effect="non-scaling-stroke"
-            x1="237.5"
-            x2="237.5"
-            y1="300"
-            y2="305"
+            x1="312.5"
+            x2="312.5"
+            y1="250"
+            y2="251"
           />
           <text
             direction="inherit"
             dx="0"
-            id="chart-axis-1-tickLabels-3"
-            x="237.5"
-            y="323.26"
+            id="chart-axis-0-tickLabels-3"
+            x="312.5"
+            y="269.55"
           >
             <tspan
               dx="0"
               dy="0"
-              style="font-family: 'Helvetica Neue', 'Helvetica', sans-serif; font-size: 12px; letter-spacing: normal; padding: 8px; fill: #455A64; stroke: transparent; stroke-width: 0;"
+              style="stroke: white; font-size: 10px; font-family: Major Mono Display; letter-spacing: normal; padding: 10px; fill: #252525;"
               text-anchor="middle"
-              x="237.5"
+              x="312.5"
             >
               4.0
             </tspan>
@@ -220,36 +173,26 @@ exports[`App renders Header 1`] = `
           <line
             role="presentation"
             shape-rendering="auto"
-            style="stroke: #ECEFF1; fill: none; stroke-dasharray: 10, 5; stroke-linecap: round; stroke-linejoin: round; pointer-events: painted;"
+            style="stroke: white; fill: transparent; size: 1px;"
             vector-effect="non-scaling-stroke"
-            x1="300"
-            x2="300"
-            y1="300"
-            y2="50"
-          />
-          <line
-            role="presentation"
-            shape-rendering="auto"
-            style="stroke: #90A4AE; fill: transparent; size: 5px; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
-            vector-effect="non-scaling-stroke"
-            x1="300"
-            x2="300"
-            y1="300"
-            y2="305"
+            x1="400"
+            x2="400"
+            y1="250"
+            y2="251"
           />
           <text
             direction="inherit"
             dx="0"
-            id="chart-axis-1-tickLabels-4"
-            x="300"
-            y="323.26"
+            id="chart-axis-0-tickLabels-4"
+            x="400"
+            y="269.55"
           >
             <tspan
               dx="0"
               dy="0"
-              style="font-family: 'Helvetica Neue', 'Helvetica', sans-serif; font-size: 12px; letter-spacing: normal; padding: 8px; fill: #455A64; stroke: transparent; stroke-width: 0;"
+              style="stroke: white; font-size: 10px; font-family: Major Mono Display; letter-spacing: normal; padding: 10px; fill: #252525;"
               text-anchor="middle"
-              x="300"
+              x="400"
             >
               5.0
             </tspan>
@@ -262,12 +205,12 @@ exports[`App renders Header 1`] = `
         <line
           role="presentation"
           shape-rendering="auto"
-          style="stroke: #90A4AE; fill: transparent; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;"
+          style="stroke: white; fill: transparent; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
           vector-effect="non-scaling-stroke"
           x1="50"
           x2="50"
           y1="50"
-          y2="300"
+          y2="250"
         />
         <g
           role="presentation"
@@ -275,36 +218,26 @@ exports[`App renders Header 1`] = `
           <line
             role="presentation"
             shape-rendering="auto"
-            style="stroke: #ECEFF1; fill: none; stroke-dasharray: 10, 5; stroke-linecap: round; stroke-linejoin: round; pointer-events: painted;"
+            style="stroke: white; fill: transparent; size: 1px;"
             vector-effect="non-scaling-stroke"
             x1="50"
-            x2="300"
-            y1="300"
-            y2="300"
-          />
-          <line
-            role="presentation"
-            shape-rendering="auto"
-            style="stroke: #90A4AE; fill: transparent; size: 5px; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
-            vector-effect="non-scaling-stroke"
-            x1="50"
-            x2="45"
-            y1="300"
-            y2="300"
+            x2="49"
+            y1="250"
+            y2="250"
           />
           <text
             direction="inherit"
             dx="0"
-            id="chart-axis-2-tickLabels-0"
-            x="37"
-            y="304.26"
+            id="chart-axis-1-tickLabels-0"
+            x="39"
+            y="253.55"
           >
             <tspan
               dx="0"
               dy="0"
-              style="font-family: 'Helvetica Neue', 'Helvetica', sans-serif; font-size: 12px; letter-spacing: normal; padding: 8px; fill: #455A64; stroke: transparent; stroke-width: 0;"
+              style="stroke: white; font-size: 10px; font-family: Major Mono Display; letter-spacing: normal; padding: 10px; fill: #252525;"
               text-anchor="end"
-              x="37"
+              x="39"
             >
               2.0
             </tspan>
@@ -316,36 +249,26 @@ exports[`App renders Header 1`] = `
           <line
             role="presentation"
             shape-rendering="auto"
-            style="stroke: #ECEFF1; fill: none; stroke-dasharray: 10, 5; stroke-linecap: round; stroke-linejoin: round; pointer-events: painted;"
+            style="stroke: white; fill: transparent; size: 1px;"
             vector-effect="non-scaling-stroke"
             x1="50"
-            x2="300"
-            y1="250"
-            y2="250"
-          />
-          <line
-            role="presentation"
-            shape-rendering="auto"
-            style="stroke: #90A4AE; fill: transparent; size: 5px; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
-            vector-effect="non-scaling-stroke"
-            x1="50"
-            x2="45"
-            y1="250"
-            y2="250"
+            x2="49"
+            y1="210"
+            y2="210"
           />
           <text
             direction="inherit"
             dx="0"
-            id="chart-axis-2-tickLabels-1"
-            x="37"
-            y="254.26"
+            id="chart-axis-1-tickLabels-1"
+            x="39"
+            y="213.55"
           >
             <tspan
               dx="0"
               dy="0"
-              style="font-family: 'Helvetica Neue', 'Helvetica', sans-serif; font-size: 12px; letter-spacing: normal; padding: 8px; fill: #455A64; stroke: transparent; stroke-width: 0;"
+              style="stroke: white; font-size: 10px; font-family: Major Mono Display; letter-spacing: normal; padding: 10px; fill: #252525;"
               text-anchor="end"
-              x="37"
+              x="39"
             >
               3.0
             </tspan>
@@ -357,36 +280,26 @@ exports[`App renders Header 1`] = `
           <line
             role="presentation"
             shape-rendering="auto"
-            style="stroke: #ECEFF1; fill: none; stroke-dasharray: 10, 5; stroke-linecap: round; stroke-linejoin: round; pointer-events: painted;"
+            style="stroke: white; fill: transparent; size: 1px;"
             vector-effect="non-scaling-stroke"
             x1="50"
-            x2="300"
-            y1="200"
-            y2="200"
-          />
-          <line
-            role="presentation"
-            shape-rendering="auto"
-            style="stroke: #90A4AE; fill: transparent; size: 5px; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
-            vector-effect="non-scaling-stroke"
-            x1="50"
-            x2="45"
-            y1="200"
-            y2="200"
+            x2="49"
+            y1="170"
+            y2="170"
           />
           <text
             direction="inherit"
             dx="0"
-            id="chart-axis-2-tickLabels-2"
-            x="37"
-            y="204.26"
+            id="chart-axis-1-tickLabels-2"
+            x="39"
+            y="173.55"
           >
             <tspan
               dx="0"
               dy="0"
-              style="font-family: 'Helvetica Neue', 'Helvetica', sans-serif; font-size: 12px; letter-spacing: normal; padding: 8px; fill: #455A64; stroke: transparent; stroke-width: 0;"
+              style="stroke: white; font-size: 10px; font-family: Major Mono Display; letter-spacing: normal; padding: 10px; fill: #252525;"
               text-anchor="end"
-              x="37"
+              x="39"
             >
               4.0
             </tspan>
@@ -398,36 +311,26 @@ exports[`App renders Header 1`] = `
           <line
             role="presentation"
             shape-rendering="auto"
-            style="stroke: #ECEFF1; fill: none; stroke-dasharray: 10, 5; stroke-linecap: round; stroke-linejoin: round; pointer-events: painted;"
+            style="stroke: white; fill: transparent; size: 1px;"
             vector-effect="non-scaling-stroke"
             x1="50"
-            x2="300"
-            y1="150"
-            y2="150"
-          />
-          <line
-            role="presentation"
-            shape-rendering="auto"
-            style="stroke: #90A4AE; fill: transparent; size: 5px; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
-            vector-effect="non-scaling-stroke"
-            x1="50"
-            x2="45"
-            y1="150"
-            y2="150"
+            x2="49"
+            y1="130"
+            y2="130"
           />
           <text
             direction="inherit"
             dx="0"
-            id="chart-axis-2-tickLabels-3"
-            x="37"
-            y="154.26"
+            id="chart-axis-1-tickLabels-3"
+            x="39"
+            y="133.55"
           >
             <tspan
               dx="0"
               dy="0"
-              style="font-family: 'Helvetica Neue', 'Helvetica', sans-serif; font-size: 12px; letter-spacing: normal; padding: 8px; fill: #455A64; stroke: transparent; stroke-width: 0;"
+              style="stroke: white; font-size: 10px; font-family: Major Mono Display; letter-spacing: normal; padding: 10px; fill: #252525;"
               text-anchor="end"
-              x="37"
+              x="39"
             >
               5.0
             </tspan>
@@ -439,36 +342,26 @@ exports[`App renders Header 1`] = `
           <line
             role="presentation"
             shape-rendering="auto"
-            style="stroke: #ECEFF1; fill: none; stroke-dasharray: 10, 5; stroke-linecap: round; stroke-linejoin: round; pointer-events: painted;"
+            style="stroke: white; fill: transparent; size: 1px;"
             vector-effect="non-scaling-stroke"
             x1="50"
-            x2="300"
-            y1="99.99999999999999"
-            y2="99.99999999999999"
-          />
-          <line
-            role="presentation"
-            shape-rendering="auto"
-            style="stroke: #90A4AE; fill: transparent; size: 5px; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
-            vector-effect="non-scaling-stroke"
-            x1="50"
-            x2="45"
-            y1="99.99999999999999"
-            y2="99.99999999999999"
+            x2="49"
+            y1="89.99999999999999"
+            y2="89.99999999999999"
           />
           <text
             direction="inherit"
             dx="0"
-            id="chart-axis-2-tickLabels-4"
-            x="37"
-            y="104.25999999999999"
+            id="chart-axis-1-tickLabels-4"
+            x="39"
+            y="93.54999999999998"
           >
             <tspan
               dx="0"
               dy="0"
-              style="font-family: 'Helvetica Neue', 'Helvetica', sans-serif; font-size: 12px; letter-spacing: normal; padding: 8px; fill: #455A64; stroke: transparent; stroke-width: 0;"
+              style="stroke: white; font-size: 10px; font-family: Major Mono Display; letter-spacing: normal; padding: 10px; fill: #252525;"
               text-anchor="end"
-              x="37"
+              x="39"
             >
               6.0
             </tspan>
@@ -480,51 +373,65 @@ exports[`App renders Header 1`] = `
           <line
             role="presentation"
             shape-rendering="auto"
-            style="stroke: #ECEFF1; fill: none; stroke-dasharray: 10, 5; stroke-linecap: round; stroke-linejoin: round; pointer-events: painted;"
+            style="stroke: white; fill: transparent; size: 1px;"
             vector-effect="non-scaling-stroke"
             x1="50"
-            x2="300"
-            y1="50"
-            y2="50"
-          />
-          <line
-            role="presentation"
-            shape-rendering="auto"
-            style="stroke: #90A4AE; fill: transparent; size: 5px; stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
-            vector-effect="non-scaling-stroke"
-            x1="50"
-            x2="45"
+            x2="49"
             y1="50"
             y2="50"
           />
           <text
             direction="inherit"
             dx="0"
-            id="chart-axis-2-tickLabels-5"
-            x="37"
-            y="54.26"
+            id="chart-axis-1-tickLabels-5"
+            x="39"
+            y="53.55"
           >
             <tspan
               dx="0"
               dy="0"
-              style="font-family: 'Helvetica Neue', 'Helvetica', sans-serif; font-size: 12px; letter-spacing: normal; padding: 8px; fill: #455A64; stroke: transparent; stroke-width: 0;"
+              style="stroke: white; font-size: 10px; font-family: Major Mono Display; letter-spacing: normal; padding: 10px; fill: #252525;"
               text-anchor="end"
-              x="37"
+              x="39"
             >
               7.0
             </tspan>
           </text>
         </g>
       </g>
+      <g
+        clip-path="url(#victory-clip-2)"
+        style="border: 1px solid #ccc; width: 100%; height: 100%;"
+      >
+        <defs>
+          <clippath
+            id="victory-clip-2"
+          >
+            <rect
+              height="200"
+              vector-effect="non-scaling-stroke"
+              width="350"
+              x="50"
+              y="50"
+            />
+          </clippath>
+        </defs>
+        <path
+          d="M50,250L137.5,210L225,130L312.5,170L400,50"
+          role="presentation"
+          shape-rendering="auto"
+          style="fill: transparent; stroke: #4D089A; stroke-width: 2;"
+        />
+      </g>
     </svg>
     <div
       style="z-index: 99; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"
     >
       <svg
-        height="350"
+        height="300"
         style="overflow: visible; width: 100%; height: 100%;"
-        viewBox="0 0 350 350"
-        width="350"
+        viewBox="0 0 450 300"
+        width="450"
       />
     </div>
   </div>
