@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App renders Header 1`] = `
+exports[`App renders LineChart 1`] = `
 <div>
   <div
     class="VictoryContainer"
@@ -26,23 +26,6 @@ exports[`App renders Header 1`] = `
           y1="250"
           y2="250"
         />
-        <text
-          direction="inherit"
-          dx="0"
-          id="chart-axis-0-axisLabel-0"
-          x="225"
-          y="283.55"
-        >
-          <tspan
-            dx="0"
-            dy="0"
-            style="stroke: white; font-size: 10px; font-family: Major Mono Display; text-anchor: middle; letter-spacing: normal; padding: 25px; fill: #252525;"
-            text-anchor="middle"
-            x="225"
-          >
-            Label
-          </tspan>
-        </text>
         <g
           role="presentation"
         >
@@ -51,8 +34,8 @@ exports[`App renders Header 1`] = `
             shape-rendering="auto"
             style="stroke: white; fill: transparent; size: 1px;"
             vector-effect="non-scaling-stroke"
-            x1="50"
-            x2="50"
+            x1="120"
+            x2="120"
             y1="250"
             y2="251"
           />
@@ -60,7 +43,7 @@ exports[`App renders Header 1`] = `
             direction="inherit"
             dx="0"
             id="chart-axis-0-tickLabels-0"
-            x="50"
+            x="120"
             y="269.55"
           >
             <tspan
@@ -68,9 +51,9 @@ exports[`App renders Header 1`] = `
               dy="0"
               style="stroke: white; font-size: 10px; font-family: Major Mono Display; letter-spacing: normal; padding: 10px; fill: #252525;"
               text-anchor="middle"
-              x="50"
+              x="120"
             >
-              1.0
+              0.2
             </tspan>
           </text>
         </g>
@@ -82,8 +65,8 @@ exports[`App renders Header 1`] = `
             shape-rendering="auto"
             style="stroke: white; fill: transparent; size: 1px;"
             vector-effect="non-scaling-stroke"
-            x1="137.5"
-            x2="137.5"
+            x1="190"
+            x2="190"
             y1="250"
             y2="251"
           />
@@ -91,7 +74,7 @@ exports[`App renders Header 1`] = `
             direction="inherit"
             dx="0"
             id="chart-axis-0-tickLabels-1"
-            x="137.5"
+            x="190"
             y="269.55"
           >
             <tspan
@@ -99,9 +82,9 @@ exports[`App renders Header 1`] = `
               dy="0"
               style="stroke: white; font-size: 10px; font-family: Major Mono Display; letter-spacing: normal; padding: 10px; fill: #252525;"
               text-anchor="middle"
-              x="137.5"
+              x="190"
             >
-              2.0
+              0.4
             </tspan>
           </text>
         </g>
@@ -113,8 +96,8 @@ exports[`App renders Header 1`] = `
             shape-rendering="auto"
             style="stroke: white; fill: transparent; size: 1px;"
             vector-effect="non-scaling-stroke"
-            x1="225"
-            x2="225"
+            x1="260"
+            x2="260"
             y1="250"
             y2="251"
           />
@@ -122,7 +105,7 @@ exports[`App renders Header 1`] = `
             direction="inherit"
             dx="0"
             id="chart-axis-0-tickLabels-2"
-            x="225"
+            x="260"
             y="269.55"
           >
             <tspan
@@ -130,9 +113,9 @@ exports[`App renders Header 1`] = `
               dy="0"
               style="stroke: white; font-size: 10px; font-family: Major Mono Display; letter-spacing: normal; padding: 10px; fill: #252525;"
               text-anchor="middle"
-              x="225"
+              x="260"
             >
-              3.0
+              0.6
             </tspan>
           </text>
         </g>
@@ -144,8 +127,8 @@ exports[`App renders Header 1`] = `
             shape-rendering="auto"
             style="stroke: white; fill: transparent; size: 1px;"
             vector-effect="non-scaling-stroke"
-            x1="312.5"
-            x2="312.5"
+            x1="330"
+            x2="330"
             y1="250"
             y2="251"
           />
@@ -153,7 +136,7 @@ exports[`App renders Header 1`] = `
             direction="inherit"
             dx="0"
             id="chart-axis-0-tickLabels-3"
-            x="312.5"
+            x="330"
             y="269.55"
           >
             <tspan
@@ -161,9 +144,9 @@ exports[`App renders Header 1`] = `
               dy="0"
               style="stroke: white; font-size: 10px; font-family: Major Mono Display; letter-spacing: normal; padding: 10px; fill: #252525;"
               text-anchor="middle"
-              x="312.5"
+              x="330"
             >
-              4.0
+              0.8
             </tspan>
           </text>
         </g>
@@ -194,7 +177,7 @@ exports[`App renders Header 1`] = `
               text-anchor="middle"
               x="400"
             >
-              5.0
+              1.0
             </tspan>
           </text>
         </g>
@@ -222,44 +205,13 @@ exports[`App renders Header 1`] = `
             vector-effect="non-scaling-stroke"
             x1="50"
             x2="49"
-            y1="250"
-            y2="250"
-          />
-          <text
-            direction="inherit"
-            dx="0"
-            id="chart-axis-1-tickLabels-0"
-            x="39"
-            y="253.55"
-          >
-            <tspan
-              dx="0"
-              dy="0"
-              style="stroke: white; font-size: 10px; font-family: Major Mono Display; letter-spacing: normal; padding: 10px; fill: #252525;"
-              text-anchor="end"
-              x="39"
-            >
-              2.0
-            </tspan>
-          </text>
-        </g>
-        <g
-          role="presentation"
-        >
-          <line
-            role="presentation"
-            shape-rendering="auto"
-            style="stroke: white; fill: transparent; size: 1px;"
-            vector-effect="non-scaling-stroke"
-            x1="50"
-            x2="49"
             y1="210"
             y2="210"
           />
           <text
             direction="inherit"
             dx="0"
-            id="chart-axis-1-tickLabels-1"
+            id="chart-axis-1-tickLabels-0"
             x="39"
             y="213.55"
           >
@@ -270,7 +222,7 @@ exports[`App renders Header 1`] = `
               text-anchor="end"
               x="39"
             >
-              3.0
+              0.2
             </tspan>
           </text>
         </g>
@@ -290,7 +242,7 @@ exports[`App renders Header 1`] = `
           <text
             direction="inherit"
             dx="0"
-            id="chart-axis-1-tickLabels-2"
+            id="chart-axis-1-tickLabels-1"
             x="39"
             y="173.55"
           >
@@ -301,7 +253,7 @@ exports[`App renders Header 1`] = `
               text-anchor="end"
               x="39"
             >
-              4.0
+              0.4
             </tspan>
           </text>
         </g>
@@ -321,7 +273,7 @@ exports[`App renders Header 1`] = `
           <text
             direction="inherit"
             dx="0"
-            id="chart-axis-1-tickLabels-3"
+            id="chart-axis-1-tickLabels-2"
             x="39"
             y="133.55"
           >
@@ -332,7 +284,7 @@ exports[`App renders Header 1`] = `
               text-anchor="end"
               x="39"
             >
-              5.0
+              0.6
             </tspan>
           </text>
         </g>
@@ -352,7 +304,7 @@ exports[`App renders Header 1`] = `
           <text
             direction="inherit"
             dx="0"
-            id="chart-axis-1-tickLabels-4"
+            id="chart-axis-1-tickLabels-3"
             x="39"
             y="93.54999999999998"
           >
@@ -363,7 +315,7 @@ exports[`App renders Header 1`] = `
               text-anchor="end"
               x="39"
             >
-              6.0
+              0.8
             </tspan>
           </text>
         </g>
@@ -383,7 +335,7 @@ exports[`App renders Header 1`] = `
           <text
             direction="inherit"
             dx="0"
-            id="chart-axis-1-tickLabels-5"
+            id="chart-axis-1-tickLabels-4"
             x="39"
             y="53.55"
           >
@@ -394,7 +346,7 @@ exports[`App renders Header 1`] = `
               text-anchor="end"
               x="39"
             >
-              7.0
+              1.0
             </tspan>
           </text>
         </g>
@@ -417,7 +369,7 @@ exports[`App renders Header 1`] = `
           </clippath>
         </defs>
         <path
-          d="M50,250L137.5,210L225,130L312.5,170L400,50"
+          d="M50,250L57,246L64,242L71,238L78,234L85,230L92,226L99,222L106,218L113,214.00000000000003L120,210L126.99999999999999,206L134,202L141,198L148,194L155,190L162,185.99999999999997L169,181.99999999999997L176.00000000000003,177.99999999999997L183.00000000000003,173.99999999999997L190.00000000000003,169.99999999999997L197.00000000000003,165.99999999999997L204.00000000000006,161.99999999999997L211.00000000000006,157.99999999999994L218.00000000000006,153.99999999999994L225.00000000000006,149.99999999999997L232.00000000000006,145.99999999999997L239.00000000000006,141.99999999999997L246.00000000000006,137.99999999999997L253.00000000000009,133.99999999999997L260.00000000000006,129.99999999999994L267.00000000000006,125.99999999999996L274.0000000000001,121.99999999999996L281.0000000000001,117.99999999999996L288.0000000000001,113.99999999999994L295.0000000000001,109.99999999999994L302.0000000000001,105.99999999999994L309.0000000000001,101.99999999999993L316.0000000000001,97.99999999999993L323.00000000000017,93.99999999999993L330.00000000000017,89.99999999999993L337.00000000000017,85.99999999999991L344.00000000000017,81.99999999999991L351.00000000000017,77.99999999999991L358.00000000000017,73.99999999999991L365.00000000000017,69.9999999999999L372.00000000000017,65.9999999999999L379.0000000000002,61.9999999999999L386.0000000000002,57.9999999999999L393.0000000000002,53.99999999999989L400,50"
           role="presentation"
           shape-rendering="auto"
           style="fill: transparent; stroke: #4D089A; stroke-width: 2;"

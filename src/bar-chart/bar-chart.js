@@ -1,29 +1,12 @@
 import { VictoryBar, VictoryStack, VictoryChart, VictoryAxis } from "victory";
 import { axisStyle } from "../utils/chart-utils/axis-style";
 
-const data2012 = [
-    { quarter: 1, earnings: 13000 },
-    { quarter: 2, earnings: 16500 },
-    { quarter: 3, earnings: 14250 },
-    { quarter: 4, earnings: 19000 }
-];
-
-const data2013 = [
-    { quarter: 1, earnings: 15000 },
-    { quarter: 2, earnings: 12500 },
-    { quarter: 3, earnings: 19500 },
-    { quarter: 4, earnings: 13000 }
-];
-
-const data2014 = [
-    { quarter: 1, earnings: 11500 },
-    { quarter: 2, earnings: 13250 },
-    { quarter: 3, earnings: 20000 },
-    { quarter: 4, earnings: 15500 }
-];
-
-
-function BarChart() {
+function BarChart({ data, label }) {
+    const {
+        data2012,
+        data2013,
+        data2014
+    } = data;
     return (
         <VictoryChart
             domainPadding={20}
@@ -31,7 +14,7 @@ function BarChart() {
             <VictoryAxis
                 tickValues={[1, 2, 3, 4]}
                 tickFormat={["Quarter 1", "Quarter 2", "Quarter 3", "Quarter 4"]}
-                label="Label"
+                label={label}
                 style={axisStyle}
             />
             <VictoryAxis

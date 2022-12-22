@@ -10,3 +10,7 @@ body {
 h1 {
   font-family: 'Major Mono Display', monospace;
 }
+
+.App {
+  margin: 200px;
+}

@@ -2,12 +2,12 @@ import { VictoryChart, VictoryLine, VictoryAxis } from "victory";
 import { axisStyle } from "../utils/chart-utils/axis-style";
 
 
-function LineChart() {
+function LineChart({ data, label }) {
     return (
         <VictoryChart
         >
             <VictoryAxis
-                label="Label"
+                label={label}
                 style={axisStyle}
             />
             <VictoryAxis
@@ -19,13 +19,7 @@ function LineChart() {
                     data: { stroke: "#4D089A" },
                     parent: { border: "1px solid #ccc" }
                 }}
-                data={[
-                    { x: 1, y: 2 },
-                    { x: 2, y: 3 },
-                    { x: 3, y: 5 },
-                    { x: 4, y: 4 },
-                    { x: 5, y: 7 }
-                ]}
+                data={data}
             />
         </VictoryChart>
     );
