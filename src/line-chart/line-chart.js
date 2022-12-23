@@ -5,6 +5,7 @@ import { axisStyle } from "../utils/chart-utils/axis-style";
 function LineChart({ data, label }) {
     return (
         <VictoryChart
+            scale={{ x: "time", y: "linear" }}
         >
             <VictoryAxis
                 label={label}

@@ -12,7 +12,7 @@ function App() {
       <BarChart data={barData} label={"Macros"} />
       <LineChart data={stepsData} label={"Steps"} />
       <BarChart data={barData} label={"Exercise"} />
-      <LineChart data={weightData} label={"Weight"} />
+      <LineChart data={weightData} label={"Weight (lb)"} />
     </div>
   );
 }
