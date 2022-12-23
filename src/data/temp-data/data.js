@@ -43,30 +43,140 @@ export const calorieData = [
     { x: new Date("2022-10-08"), y: 1124 }
 ];
 
-// needs to be sorted better by area
-const data2012 = [
-    { quarter: 1, earnings: 13000 },
-    { quarter: 2, earnings: 16500 },
-    { quarter: 3, earnings: 14250 },
-    { quarter: 4, earnings: 20000 }
+export const bodyCompositionData = [
+    [
+        { date: new Date("2022-10-08"), comp: 51 },
+        { date: new Date("2022-10-09"), comp: 51 },
+        { date: new Date("2022-10-10"), comp: 58 },
+        { date: new Date("2022-10-11"), comp: 52 },
+        { date: new Date("2022-10-12"), comp: 51 },
+        { date: new Date("2022-10-13"), comp: 52 },
+        { date: new Date("2022-10-14"), comp: 51 },
+        { date: new Date("2022-10-15"), comp: 52 },
+        { date: new Date("2022-10-16"), comp: 52 },
+        { date: new Date("2022-10-17"), comp: 52 },
+        { date: new Date("2022-10-18"), comp: 53 },
+        { date: new Date("2022-10-19"), comp: 52 }
+    ],
+    [
+        { date: new Date("2022-10-08"), comp: 3 },
+        { date: new Date("2022-10-09"), comp: 3 },
+        { date: new Date("2022-10-10"), comp: 3 },
+        { date: new Date("2022-10-11"), comp: 3 },
+        { date: new Date("2022-10-12"), comp: 3 },
+        { date: new Date("2022-10-13"), comp: 3 },
+        { date: new Date("2022-10-14"), comp: 3 },
+        { date: new Date("2022-10-15"), comp: 3 },
+        { date: new Date("2022-10-16"), comp: 3 },
+        { date: new Date("2022-10-17"), comp: 3 },
+        { date: new Date("2022-10-18"), comp: 3 },
+        { date: new Date("2022-10-19"), comp: 3 }
+    ],
+    [
+        { date: new Date("2022-10-08"), comp: 46 },
+        { date: new Date("2022-10-09"), comp: 46 },
+        { date: new Date("2022-10-10"), comp: 39 },
+        { date: new Date("2022-10-11"), comp: 45 },
+        { date: new Date("2022-10-12"), comp: 46 },
+        { date: new Date("2022-10-13"), comp: 45 },
+        { date: new Date("2022-10-14"), comp: 46 },
+        { date: new Date("2022-10-15"), comp: 45 },
+        { date: new Date("2022-10-16"), comp: 45 },
+        { date: new Date("2022-10-17"), comp: 45 },
+        { date: new Date("2022-10-18"), comp: 44 },
+        { date: new Date("2022-10-19"), comp: 45 }
+    ]
+
 ];
 
-const data2013 = [
-    { quarter: 1, earnings: 15000 },
-    { quarter: 2, earnings: 12500 },
-    { quarter: 3, earnings: 19500 },
-    { quarter: 4, earnings: 13000 }
+export const macrosData = [
+    [
+        { date: new Date("2022-10-08"), macro: 64 },
+        { date: new Date("2022-10-09"), macro: 99 },
+        { date: new Date("2022-10-10"), macro: 74 },
+        { date: new Date("2022-10-11"), macro: 83 },
+        { date: new Date("2022-10-12"), macro: 89 },
+        { date: new Date("2022-10-13"), macro: 52 },
+        { date: new Date("2022-10-14"), macro: 62 },
+        { date: new Date("2022-10-15"), macro: 68 },
+        { date: new Date("2022-10-16"), macro: 62 },
+        { date: new Date("2022-10-17"), macro: 56 },
+        { date: new Date("2022-10-18"), macro: 69 },
+        { date: new Date("2022-10-19"), macro: 50 }
+    ],
+    [
+        { date: new Date("2022-10-08"), macro: 124 },
+        { date: new Date("2022-10-09"), macro: 157 },
+        { date: new Date("2022-10-10"), macro: 140 },
+        { date: new Date("2022-10-11"), macro: 175 },
+        { date: new Date("2022-10-12"), macro: 172 },
+        { date: new Date("2022-10-13"), macro: 144 },
+        { date: new Date("2022-10-14"), macro: 150 },
+        { date: new Date("2022-10-15"), macro: 173 },
+        { date: new Date("2022-10-16"), macro: 160 },
+        { date: new Date("2022-10-17"), macro: 170 },
+        { date: new Date("2022-10-18"), macro: 177 },
+        { date: new Date("2022-10-19"), macro: 168 }
+    ],
+    [
+        { date: new Date("2022-10-08"), macro: 48 },
+        { date: new Date("2022-10-09"), macro: 53 },
+        { date: new Date("2022-10-10"), macro: 49 },
+        { date: new Date("2022-10-11"), macro: 30 },
+        { date: new Date("2022-10-12"), macro: 59 },
+        { date: new Date("2022-10-13"), macro: 39 },
+        { date: new Date("2022-10-14"), macro: 22 },
+        { date: new Date("2022-10-15"), macro: 40 },
+        { date: new Date("2022-10-16"), macro: 42 },
+        { date: new Date("2022-10-17"), macro: 25 },
+        { date: new Date("2022-10-18"), macro: 28 },
+        { date: new Date("2022-10-19"), macro: 28 }
+    ]
+
 ];
 
-const data2014 = [
-    { quarter: 1, earnings: 11500 },
-    { quarter: 2, earnings: 13250 },
-    { quarter: 3, earnings: 20000 },
-    { quarter: 4, earnings: 15500 }
-];
+export const exerciseData = [
+    [
+        { date: new Date("2022-10-08"), exercise: 0 },
+        { date: new Date("2022-10-09"), exercise: 170 },
+        { date: new Date("2022-10-10"), exercise: 0 },
+        { date: new Date("2022-10-11"), exercise: 0 },
+        { date: new Date("2022-10-12"), exercise: 0 },
+        { date: new Date("2022-10-13"), exercise: 0 },
+        { date: new Date("2022-10-14"), exercise: 0 },
+        { date: new Date("2022-10-15"), exercise: 0 },
+        { date: new Date("2022-10-16"), exercise: 0 },
+        { date: new Date("2022-10-17"), exercise: 0 },
+        { date: new Date("2022-10-18"), exercise: 0 },
+        { date: new Date("2022-10-19"), exercise: 0 }
+    ],
+    [
+        { date: new Date("2022-10-08"), exercise: 0 },
+        { date: new Date("2022-10-09"), exercise: 380 },
+        { date: new Date("2022-10-10"), exercise: 0 },
+        { date: new Date("2022-10-11"), exercise: 0 },
+        { date: new Date("2022-10-12"), exercise: 0 },
+        { date: new Date("2022-10-13"), exercise: 0 },
+        { date: new Date("2022-10-14"), exercise: 0 },
+        { date: new Date("2022-10-15"), exercise: 0 },
+        { date: new Date("2022-10-16"), exercise: 0 },
+        { date: new Date("2022-10-17"), exercise: 0 },
+        { date: new Date("2022-10-18"), exercise: 0 },
+        { date: new Date("2022-10-19"), exercise: 0 }
+    ],
+    [
+        { date: new Date("2022-10-08"), exercise: 400 },
+        { date: new Date("2022-10-09"), exercise: 800 },
+        { date: new Date("2022-10-10"), exercise: 800 },
+        { date: new Date("2022-10-11"), exercise: 0 },
+        { date: new Date("2022-10-12"), exercise: 0 },
+        { date: new Date("2022-10-13"), exercise: 0 },
+        { date: new Date("2022-10-14"), exercise: 0 },
+        { date: new Date("2022-10-15"), exercise: 0 },
+        { date: new Date("2022-10-16"), exercise: 0 },
+        { date: new Date("2022-10-17"), exercise: 400 },
+        { date: new Date("2022-10-18"), exercise: 400 },
+        { date: new Date("2022-10-19"), exercise: 0 }
+    ]
 
-export const barData = {
-    data2012,
-    data2013,
-    data2014
-}
+];

@@ -34,8 +34,8 @@ exports[`App renders BarChart 1`] = `
             shape-rendering="auto"
             style="stroke: white; fill: transparent; size: 1px;"
             vector-effect="non-scaling-stroke"
-            x1="70"
-            x2="70"
+            x1="50"
+            x2="50"
             y1="250"
             y2="251"
           />
@@ -43,7 +43,7 @@ exports[`App renders BarChart 1`] = `
             direction="inherit"
             dx="0"
             id="chart-axis-0-tickLabels-0"
-            x="70"
+            x="50"
             y="269.55"
           >
             <tspan
@@ -51,9 +51,9 @@ exports[`App renders BarChart 1`] = `
               dy="0"
               style="stroke: white; font-size: 10px; font-family: Major Mono Display; letter-spacing: normal; padding: 10px; fill: #252525;"
               text-anchor="middle"
-              x="70"
+              x="50"
             >
-              Quarter 1
+              01 AM
             </tspan>
           </text>
         </g>
@@ -65,8 +65,8 @@ exports[`App renders BarChart 1`] = `
             shape-rendering="auto"
             style="stroke: white; fill: transparent; size: 1px;"
             vector-effect="non-scaling-stroke"
-            x1="173.33333333333334"
-            x2="173.33333333333334"
+            x1="400"
+            x2="400"
             y1="250"
             y2="251"
           />
@@ -74,7 +74,7 @@ exports[`App renders BarChart 1`] = `
             direction="inherit"
             dx="0"
             id="chart-axis-0-tickLabels-1"
-            x="173.33333333333334"
+            x="400"
             y="269.55"
           >
             <tspan
@@ -82,71 +82,9 @@ exports[`App renders BarChart 1`] = `
               dy="0"
               style="stroke: white; font-size: 10px; font-family: Major Mono Display; letter-spacing: normal; padding: 10px; fill: #252525;"
               text-anchor="middle"
-              x="173.33333333333334"
+              x="400"
             >
-              Quarter 2
-            </tspan>
-          </text>
-        </g>
-        <g
-          role="presentation"
-        >
-          <line
-            role="presentation"
-            shape-rendering="auto"
-            style="stroke: white; fill: transparent; size: 1px;"
-            vector-effect="non-scaling-stroke"
-            x1="276.66666666666663"
-            x2="276.66666666666663"
-            y1="250"
-            y2="251"
-          />
-          <text
-            direction="inherit"
-            dx="0"
-            id="chart-axis-0-tickLabels-2"
-            x="276.66666666666663"
-            y="269.55"
-          >
-            <tspan
-              dx="0"
-              dy="0"
-              style="stroke: white; font-size: 10px; font-family: Major Mono Display; letter-spacing: normal; padding: 10px; fill: #252525;"
-              text-anchor="middle"
-              x="276.66666666666663"
-            >
-              Quarter 3
-            </tspan>
-          </text>
-        </g>
-        <g
-          role="presentation"
-        >
-          <line
-            role="presentation"
-            shape-rendering="auto"
-            style="stroke: white; fill: transparent; size: 1px;"
-            vector-effect="non-scaling-stroke"
-            x1="380"
-            x2="380"
-            y1="250"
-            y2="251"
-          />
-          <text
-            direction="inherit"
-            dx="0"
-            id="chart-axis-0-tickLabels-3"
-            x="380"
-            y="269.55"
-          >
-            <tspan
-              dx="0"
-              dy="0"
-              style="stroke: white; font-size: 10px; font-family: Major Mono Display; letter-spacing: normal; padding: 10px; fill: #252525;"
-              text-anchor="middle"
-              x="380"
-            >
-              Quarter 4
+              .001
             </tspan>
           </text>
         </g>
@@ -174,15 +112,15 @@ exports[`App renders BarChart 1`] = `
             vector-effect="non-scaling-stroke"
             x1="50"
             x2="49"
-            y1="216.4781060129897"
-            y2="216.4781060129897"
+            y1="213.963963963964"
+            y2="213.963963963964"
           />
           <text
             direction="inherit"
             dx="0"
             id="chart-axis-1-tickLabels-0"
             x="39"
-            y="220.02810601298972"
+            y="217.51396396396402"
           >
             <tspan
               dx="0"
@@ -191,7 +129,7 @@ exports[`App renders BarChart 1`] = `
               text-anchor="end"
               x="39"
             >
-              $10k
+              0.2
             </tspan>
           </text>
         </g>
@@ -205,15 +143,15 @@ exports[`App renders BarChart 1`] = `
             vector-effect="non-scaling-stroke"
             x1="50"
             x2="49"
-            y1="182.95621202597948"
-            y2="182.95621202597948"
+            y1="177.92792792792793"
+            y2="177.92792792792793"
           />
           <text
             direction="inherit"
             dx="0"
             id="chart-axis-1-tickLabels-1"
             x="39"
-            y="186.5062120259795"
+            y="181.47792792792794"
           >
             <tspan
               dx="0"
@@ -222,7 +160,7 @@ exports[`App renders BarChart 1`] = `
               text-anchor="end"
               x="39"
             >
-              $20k
+              0.4
             </tspan>
           </text>
         </g>
@@ -236,15 +174,15 @@ exports[`App renders BarChart 1`] = `
             vector-effect="non-scaling-stroke"
             x1="50"
             x2="49"
-            y1="149.4343180389692"
-            y2="149.4343180389692"
+            y1="141.8918918918919"
+            y2="141.8918918918919"
           />
           <text
             direction="inherit"
             dx="0"
             id="chart-axis-1-tickLabels-2"
             x="39"
-            y="152.9843180389692"
+            y="145.4418918918919"
           >
             <tspan
               dx="0"
@@ -253,7 +191,7 @@ exports[`App renders BarChart 1`] = `
               text-anchor="end"
               x="39"
             >
-              $30k
+              0.6
             </tspan>
           </text>
         </g>
@@ -267,15 +205,15 @@ exports[`App renders BarChart 1`] = `
             vector-effect="non-scaling-stroke"
             x1="50"
             x2="49"
-            y1="115.91242405195894"
-            y2="115.91242405195894"
+            y1="105.85585585585586"
+            y2="105.85585585585586"
           />
           <text
             direction="inherit"
             dx="0"
             id="chart-axis-1-tickLabels-3"
             x="39"
-            y="119.46242405195893"
+            y="109.40585585585586"
           >
             <tspan
               dx="0"
@@ -284,7 +222,7 @@ exports[`App renders BarChart 1`] = `
               text-anchor="end"
               x="39"
             >
-              $40k
+              0.8
             </tspan>
           </text>
         </g>
@@ -298,15 +236,15 @@ exports[`App renders BarChart 1`] = `
             vector-effect="non-scaling-stroke"
             x1="50"
             x2="49"
-            y1="82.39053006494868"
-            y2="82.39053006494868"
+            y1="69.81981981981984"
+            y2="69.81981981981984"
           />
           <text
             direction="inherit"
             dx="0"
             id="chart-axis-1-tickLabels-4"
             x="39"
-            y="85.94053006494867"
+            y="73.36981981981984"
           >
             <tspan
               dx="0"
@@ -315,205 +253,12 @@ exports[`App renders BarChart 1`] = `
               text-anchor="end"
               x="39"
             >
-              $50k
+              1.0
             </tspan>
           </text>
         </g>
       </g>
-      <g>
-        <g
-          role="presentation"
-        >
-          <path
-            d="M 55.416666666666664, 156.13869683637122 
-A 0 0 0 0 1, 55.416666666666664, 156.13869683637122 
-L 55.416666666666664, 117.58851875130945 
-A 0 0 0 0 1, 55.416666666666664, 117.58851875130945 
-L 84.58333333333333, 117.58851875130945 
-A 0 0 0 0 1, 84.58333333333333, 117.58851875130945 
-L 84.58333333333333, 156.13869683637122 
-A 0 0 0 0 1, 84.58333333333333, 156.13869683637122 
- z"
-            index="0"
-            role="presentation"
-            shape-rendering="auto"
-            style="fill: #E8F044; stroke: #E8F044; padding: 8px; stroke-width: 0;"
-          />
-          <path
-            d="M 158.75, 152.78650743767022 
-A 0 0 0 0 1, 158.75, 152.78650743767022 
-L 158.75, 108.36999790488161 
-A 0 0 0 0 1, 158.75, 108.36999790488161 
-L 187.91666666666669, 108.36999790488161 
-A 0 0 0 0 1, 187.91666666666669, 108.36999790488161 
-L 187.91666666666669, 152.78650743767022 
-A 0 0 0 0 1, 187.91666666666669, 152.78650743767022 
- z"
-            index="1"
-            role="presentation"
-            shape-rendering="auto"
-            style="fill: #E8F044; stroke: #E8F044; padding: 8px; stroke-width: 0;"
-          />
-          <path
-            d="M 262.0833333333333, 136.86360779384034 
-A 0 0 0 0 1, 262.0833333333333, 136.86360779384034 
-L 262.0833333333333, 69.81981981981981 
-A 0 0 0 0 1, 262.0833333333333, 69.81981981981981 
-L 291.24999999999994, 69.81981981981981 
-A 0 0 0 0 1, 291.24999999999994, 69.81981981981981 
-L 291.24999999999994, 136.86360779384034 
-A 0 0 0 0 1, 291.24999999999994, 136.86360779384034 
- z"
-            index="2"
-            role="presentation"
-            shape-rendering="auto"
-            style="fill: #E8F044; stroke: #E8F044; padding: 8px; stroke-width: 0;"
-          />
-          <path
-            d="M 365.4166666666667, 139.37774984286614 
-A 0 0 0 0 1, 365.4166666666667, 139.37774984286614 
-L 365.4166666666667, 87.4188141630002 
-A 0 0 0 0 1, 365.4166666666667, 87.4188141630002 
-L 394.5833333333333, 87.4188141630002 
-A 0 0 0 0 1, 394.5833333333333, 87.4188141630002 
-L 394.5833333333333, 139.37774984286614 
-A 0 0 0 0 1, 394.5833333333333, 139.37774984286614 
- z"
-            index="3"
-            role="presentation"
-            shape-rendering="auto"
-            style="fill: #E8F044; stroke: #E8F044; padding: 8px; stroke-width: 0;"
-          />
-        </g>
-        <g
-          role="presentation"
-        >
-          <path
-            d="M 55.416666666666664, 206.42153781688666 
-A 0 0 0 0 1, 55.416666666666664, 206.42153781688666 
-L 55.416666666666664, 156.13869683637122 
-A 0 0 0 0 1, 55.416666666666664, 156.13869683637122 
-L 84.58333333333333, 156.13869683637122 
-A 0 0 0 0 1, 84.58333333333333, 156.13869683637122 
-L 84.58333333333333, 206.42153781688666 
-A 0 0 0 0 1, 84.58333333333333, 206.42153781688666 
- z"
-            index="0"
-            role="presentation"
-            shape-rendering="auto"
-            style="fill: #DC2ADE; stroke: #DC2ADE; padding: 8px; stroke-width: 0;"
-          />
-          <path
-            d="M 158.75, 194.68887492143307 
-A 0 0 0 0 1, 158.75, 194.68887492143307 
-L 158.75, 152.78650743767022 
-A 0 0 0 0 1, 158.75, 152.78650743767022 
-L 187.91666666666669, 152.78650743767022 
-A 0 0 0 0 1, 187.91666666666669, 152.78650743767022 
-L 187.91666666666669, 194.68887492143307 
-A 0 0 0 0 1, 187.91666666666669, 194.68887492143307 
- z"
-            index="1"
-            role="presentation"
-            shape-rendering="auto"
-            style="fill: #DC2ADE; stroke: #DC2ADE; padding: 8px; stroke-width: 0;"
-          />
-          <path
-            d="M 262.0833333333333, 202.2313010685104 
-A 0 0 0 0 1, 262.0833333333333, 202.2313010685104 
-L 262.0833333333333, 136.86360779384034 
-A 0 0 0 0 1, 262.0833333333333, 136.86360779384034 
-L 291.24999999999994, 136.86360779384034 
-A 0 0 0 0 1, 291.24999999999994, 136.86360779384034 
-L 291.24999999999994, 202.2313010685104 
-A 0 0 0 0 1, 291.24999999999994, 202.2313010685104 
- z"
-            index="2"
-            role="presentation"
-            shape-rendering="auto"
-            style="fill: #DC2ADE; stroke: #DC2ADE; padding: 8px; stroke-width: 0;"
-          />
-          <path
-            d="M 365.4166666666667, 182.95621202597948 
-A 0 0 0 0 1, 365.4166666666667, 182.95621202597948 
-L 365.4166666666667, 139.37774984286614 
-A 0 0 0 0 1, 365.4166666666667, 139.37774984286614 
-L 394.5833333333333, 139.37774984286614 
-A 0 0 0 0 1, 394.5833333333333, 139.37774984286614 
-L 394.5833333333333, 182.95621202597948 
-A 0 0 0 0 1, 394.5833333333333, 182.95621202597948 
- z"
-            index="3"
-            role="presentation"
-            shape-rendering="auto"
-            style="fill: #DC2ADE; stroke: #DC2ADE; padding: 8px; stroke-width: 0;"
-          />
-        </g>
-        <g
-          role="presentation"
-        >
-          <path
-            d="M 55.416666666666664, 250 
-A 0 0 0 0 1, 55.416666666666664, 250 
-L 55.416666666666664, 206.42153781688666 
-A 0 0 0 0 1, 55.416666666666664, 206.42153781688666 
-L 84.58333333333333, 206.42153781688666 
-A 0 0 0 0 1, 84.58333333333333, 206.42153781688666 
-L 84.58333333333333, 250 
-A 0 0 0 0 1, 84.58333333333333, 250 
- z"
-            index="0"
-            role="presentation"
-            shape-rendering="auto"
-            style="fill: #323EDD; stroke: #323EDD; padding: 8px; stroke-width: 0;"
-          />
-          <path
-            d="M 158.75, 250 
-A 0 0 0 0 1, 158.75, 250 
-L 158.75, 194.68887492143307 
-A 0 0 0 0 1, 158.75, 194.68887492143307 
-L 187.91666666666669, 194.68887492143307 
-A 0 0 0 0 1, 187.91666666666669, 194.68887492143307 
-L 187.91666666666669, 250 
-A 0 0 0 0 1, 187.91666666666669, 250 
- z"
-            index="1"
-            role="presentation"
-            shape-rendering="auto"
-            style="fill: #323EDD; stroke: #323EDD; padding: 8px; stroke-width: 0;"
-          />
-          <path
-            d="M 262.0833333333333, 250 
-A 0 0 0 0 1, 262.0833333333333, 250 
-L 262.0833333333333, 202.2313010685104 
-A 0 0 0 0 1, 262.0833333333333, 202.2313010685104 
-L 291.24999999999994, 202.2313010685104 
-A 0 0 0 0 1, 291.24999999999994, 202.2313010685104 
-L 291.24999999999994, 250 
-A 0 0 0 0 1, 291.24999999999994, 250 
- z"
-            index="2"
-            role="presentation"
-            shape-rendering="auto"
-            style="fill: #323EDD; stroke: #323EDD; padding: 8px; stroke-width: 0;"
-          />
-          <path
-            d="M 365.4166666666667, 250 
-A 0 0 0 0 1, 365.4166666666667, 250 
-L 365.4166666666667, 182.95621202597948 
-A 0 0 0 0 1, 365.4166666666667, 182.95621202597948 
-L 394.5833333333333, 182.95621202597948 
-A 0 0 0 0 1, 394.5833333333333, 182.95621202597948 
-L 394.5833333333333, 250 
-A 0 0 0 0 1, 394.5833333333333, 250 
- z"
-            index="3"
-            role="presentation"
-            shape-rendering="auto"
-            style="fill: #323EDD; stroke: #323EDD; padding: 8px; stroke-width: 0;"
-          />
-        </g>
-      </g>
+      <g />
     </svg>
     <div
       style="z-index: 99; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"
