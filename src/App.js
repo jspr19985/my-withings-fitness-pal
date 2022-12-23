@@ -1,17 +1,39 @@
+import { VictoryBar } from "victory";
 import Header from "./header/header.js";
 import BarChart from "./bar-chart/bar-chart";
 import LineChart from "./line-chart/line-chart";
-import { stepsData, weightData, calorieData, barData } from "./data/temp-data/data";
+import { stepsData, weightData, calorieData, bodyCompositionData, exerciseData, macrosData } from "./data/temp-data/data";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <BarChart data={barData} label={"Body Composition"} />
-      <LineChart data={calorieData} label={"Calories"} />
-      <BarChart data={barData} label={"Macros"} />
+      <BarChart label={"Body Composition (%)"}>
+        {bodyCompositionData.map(data => <VictoryBar
+          data={data}
+          x="date"
+          y="comp"
+          key={`body-comp-${data}`}
+        />)}
+      </BarChart>
+      <LineChart data={calorieData} label={"Calories (kcal)"} />
+      <BarChart label={"Macros (g)"}>
+        {macrosData.map(data => <VictoryBar
+          data={data}
+          x="date"
+          y="macro"
+          key={`macro-${data}`}
+        />)}
+      </BarChart>
       <LineChart data={stepsData} label={"Steps"} />
-      <BarChart data={barData} label={"Exercise"} />
+      <BarChart label={"Exercise"}>
+        {exerciseData.map(data => <VictoryBar
+          data={data}
+          x="date"
+          y="exercise"
+          key={`exercise-${data}`}
+        />)}
+      </BarChart>
       <LineChart data={weightData} label={"Weight (lb)"} />
     </div>
   );
