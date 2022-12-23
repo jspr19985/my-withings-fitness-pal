@@ -13,7 +13,6 @@ function BarChart({ label, children }) {
             />
             <VictoryAxis
                 dependentAxis
-                // tickFormat={(x) => (`$${x / 1000}k`)}
                 style={axisStyle}
             />
             <VictoryStack
