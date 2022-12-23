@@ -1,24 +1,46 @@
 export const stepsData = [
-    { x: 1, y: 2 },
-    { x: 2, y: 3 },
-    { x: 3, y: 5 },
-    { x: 4, y: 4 },
-    { x: 5, y: 1 }
+    { x: new Date("2022-10-19"), y: 0 },
+    { x: new Date("2022-10-18"), y: 2195 },
+    { x: new Date("2022-10-17"), y: 0 },
+    { x: new Date("2022-10-16"), y: 8555 },
+    { x: new Date("2022-10-15"), y: 8926 },
+    { x: new Date("2022-10-14"), y: 0 },
+    { x: new Date("2022-10-13"), y: 1053 },
+    { x: new Date("2022-10-12"), y: 4475 },
+    { x: new Date("2022-10-11"), y: 4734 },
+    { x: new Date("2022-10-10"), y: 3524 },
+    { x: new Date("2022-10-09"), y: 14554 },
+    { x: new Date("2022-10-08"), y: 9981 }
 ];
-export const weightData = [
-    { x: 1, y: 9 },
-    { x: 2, y: 5 },
-    { x: 3, y: 5 },
-    { x: 4, y: 1 },
-    { x: 5, y: 7 }
+
+export const weightData = [ // need some logic somewhere that fills in 0 with the day before (only for weight)
+    { x: new Date("2022-10-19"), y: 179 },
+    { x: new Date("2022-10-18"), y: 180 },
+    { x: new Date("2022-10-17"), y: 181 },
+    { x: new Date("2022-10-16"), y: 180 },
+    { x: new Date("2022-10-15"), y: 179 },
+    { x: new Date("2022-10-14"), y: 179 },
+    { x: new Date("2022-10-13"), y: 180 },
+    { x: new Date("2022-10-12"), y: 181 },
+    { x: new Date("2022-10-11"), y: 181 },
+    { x: new Date("2022-10-10"), y: 181 },
+    { x: new Date("2022-10-09"), y: 180 },
+    { x: new Date("2022-10-08"), y: 180 }
 ];
 
 export const calorieData = [
-    { x: 1, y: 9 },
-    { x: 2, y: 5 },
-    { x: 3, y: 5 },
-    { x: 4, y: 1 },
-    { x: 5, y: 7 }
+    { x: new Date("2022-10-19"), y: 1207 },
+    { x: new Date("2022-10-18"), y: 1533 },
+    { x: new Date("2022-10-17"), y: 1326 },
+    { x: new Date("2022-10-16"), y: 1368 },
+    { x: new Date("2022-10-15"), y: 1611 },
+    { x: new Date("2022-10-14"), y: 1157 },
+    { x: new Date("2022-10-13"), y: 1076 },
+    { x: new Date("2022-10-12"), y: 1379 },
+    { x: new Date("2022-10-11"), y: 1278 },
+    { x: new Date("2022-10-10"), y: 1169 },
+    { x: new Date("2022-10-09"), y: 1299 },
+    { x: new Date("2022-10-08"), y: 1124 }
 ];
 
 // needs to be sorted better by area
