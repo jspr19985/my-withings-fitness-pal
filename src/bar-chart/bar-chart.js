@@ -6,6 +6,7 @@ function BarChart({ label, children }) {
         <VictoryChart
             domainPadding={20}
             scale={{ x: "time", y: "linear" }}
+            height={150}
         >
             <VictoryAxis
                 label={label}

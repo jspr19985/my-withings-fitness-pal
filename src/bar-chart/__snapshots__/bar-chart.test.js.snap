@@ -7,10 +7,10 @@ exports[`App renders BarChart 1`] = `
     style="height: 100%; width: 100%; user-select: none; pointer-events: none; position: relative;"
   >
     <svg
-      height="300"
+      height="150"
       role="img"
       style="pointer-events: all; width: 100%; height: 100%;"
-      viewBox="0 0 450 300"
+      viewBox="0 0 450 150"
       width="450"
     >
       <g
@@ -23,8 +23,8 @@ exports[`App renders BarChart 1`] = `
           vector-effect="non-scaling-stroke"
           x1="50"
           x2="400"
-          y1="250"
-          y2="250"
+          y1="100"
+          y2="100"
         />
         <g
           role="presentation"
@@ -36,20 +36,20 @@ exports[`App renders BarChart 1`] = `
             vector-effect="non-scaling-stroke"
             x1="50"
             x2="50"
-            y1="250"
-            y2="251"
+            y1="100"
+            y2="101"
           />
           <text
             direction="inherit"
             dx="0"
             id="chart-axis-0-tickLabels-0"
             x="50"
-            y="269.55"
+            y="113.565"
           >
             <tspan
               dx="0"
               dy="0"
-              style="stroke: white; font-size: 10px; font-family: Major Mono Display; letter-spacing: normal; padding: 10px; fill: #252525;"
+              style="font-size: 3px; font-family: Major Mono Display; stroke-width: 0.2; stroke: white; letter-spacing: normal; padding: 10px; fill: #252525;"
               text-anchor="middle"
               x="50"
             >
@@ -67,20 +67,20 @@ exports[`App renders BarChart 1`] = `
             vector-effect="non-scaling-stroke"
             x1="400"
             x2="400"
-            y1="250"
-            y2="251"
+            y1="100"
+            y2="101"
           />
           <text
             direction="inherit"
             dx="0"
             id="chart-axis-0-tickLabels-1"
             x="400"
-            y="269.55"
+            y="113.565"
           >
             <tspan
               dx="0"
               dy="0"
-              style="stroke: white; font-size: 10px; font-family: Major Mono Display; letter-spacing: normal; padding: 10px; fill: #252525;"
+              style="font-size: 3px; font-family: Major Mono Display; stroke-width: 0.2; stroke: white; letter-spacing: normal; padding: 10px; fill: #252525;"
               text-anchor="middle"
               x="400"
             >
@@ -100,7 +100,7 @@ exports[`App renders BarChart 1`] = `
           x1="50"
           x2="50"
           y1="50"
-          y2="250"
+          y2="100"
         />
         <g
           role="presentation"
@@ -112,20 +112,20 @@ exports[`App renders BarChart 1`] = `
             vector-effect="non-scaling-stroke"
             x1="50"
             x2="49"
-            y1="213.963963963964"
-            y2="213.963963963964"
+            y1="93.58974358974359"
+            y2="93.58974358974359"
           />
           <text
             direction="inherit"
             dx="0"
             id="chart-axis-1-tickLabels-0"
             x="39"
-            y="217.51396396396402"
+            y="94.65474358974359"
           >
             <tspan
               dx="0"
               dy="0"
-              style="stroke: white; font-size: 10px; font-family: Major Mono Display; letter-spacing: normal; padding: 10px; fill: #252525;"
+              style="font-size: 3px; font-family: Major Mono Display; stroke-width: 0.2; stroke: white; letter-spacing: normal; padding: 10px; fill: #252525;"
               text-anchor="end"
               x="39"
             >
@@ -143,20 +143,20 @@ exports[`App renders BarChart 1`] = `
             vector-effect="non-scaling-stroke"
             x1="50"
             x2="49"
-            y1="177.92792792792793"
-            y2="177.92792792792793"
+            y1="87.17948717948718"
+            y2="87.17948717948718"
           />
           <text
             direction="inherit"
             dx="0"
             id="chart-axis-1-tickLabels-1"
             x="39"
-            y="181.47792792792794"
+            y="88.24448717948718"
           >
             <tspan
               dx="0"
               dy="0"
-              style="stroke: white; font-size: 10px; font-family: Major Mono Display; letter-spacing: normal; padding: 10px; fill: #252525;"
+              style="font-size: 3px; font-family: Major Mono Display; stroke-width: 0.2; stroke: white; letter-spacing: normal; padding: 10px; fill: #252525;"
               text-anchor="end"
               x="39"
             >
@@ -174,20 +174,20 @@ exports[`App renders BarChart 1`] = `
             vector-effect="non-scaling-stroke"
             x1="50"
             x2="49"
-            y1="141.8918918918919"
-            y2="141.8918918918919"
+            y1="80.76923076923077"
+            y2="80.76923076923077"
           />
           <text
             direction="inherit"
             dx="0"
             id="chart-axis-1-tickLabels-2"
             x="39"
-            y="145.4418918918919"
+            y="81.83423076923077"
           >
             <tspan
               dx="0"
               dy="0"
-              style="stroke: white; font-size: 10px; font-family: Major Mono Display; letter-spacing: normal; padding: 10px; fill: #252525;"
+              style="font-size: 3px; font-family: Major Mono Display; stroke-width: 0.2; stroke: white; letter-spacing: normal; padding: 10px; fill: #252525;"
               text-anchor="end"
               x="39"
             >
@@ -205,20 +205,20 @@ exports[`App renders BarChart 1`] = `
             vector-effect="non-scaling-stroke"
             x1="50"
             x2="49"
-            y1="105.85585585585586"
-            y2="105.85585585585586"
+            y1="74.35897435897435"
+            y2="74.35897435897435"
           />
           <text
             direction="inherit"
             dx="0"
             id="chart-axis-1-tickLabels-3"
             x="39"
-            y="109.40585585585586"
+            y="75.42397435897435"
           >
             <tspan
               dx="0"
               dy="0"
-              style="stroke: white; font-size: 10px; font-family: Major Mono Display; letter-spacing: normal; padding: 10px; fill: #252525;"
+              style="font-size: 3px; font-family: Major Mono Display; stroke-width: 0.2; stroke: white; letter-spacing: normal; padding: 10px; fill: #252525;"
               text-anchor="end"
               x="39"
             >
@@ -236,24 +236,86 @@ exports[`App renders BarChart 1`] = `
             vector-effect="non-scaling-stroke"
             x1="50"
             x2="49"
-            y1="69.81981981981984"
-            y2="69.81981981981984"
+            y1="67.94871794871796"
+            y2="67.94871794871796"
           />
           <text
             direction="inherit"
             dx="0"
             id="chart-axis-1-tickLabels-4"
             x="39"
-            y="73.36981981981984"
+            y="69.01371794871795"
           >
             <tspan
               dx="0"
               dy="0"
-              style="stroke: white; font-size: 10px; font-family: Major Mono Display; letter-spacing: normal; padding: 10px; fill: #252525;"
+              style="font-size: 3px; font-family: Major Mono Display; stroke-width: 0.2; stroke: white; letter-spacing: normal; padding: 10px; fill: #252525;"
               text-anchor="end"
               x="39"
             >
               1.0
+            </tspan>
+          </text>
+        </g>
+        <g
+          role="presentation"
+        >
+          <line
+            role="presentation"
+            shape-rendering="auto"
+            style="stroke: white; fill: transparent; size: 1px;"
+            vector-effect="non-scaling-stroke"
+            x1="50"
+            x2="49"
+            y1="61.53846153846155"
+            y2="61.53846153846155"
+          />
+          <text
+            direction="inherit"
+            dx="0"
+            id="chart-axis-1-tickLabels-5"
+            x="39"
+            y="62.603461538461545"
+          >
+            <tspan
+              dx="0"
+              dy="0"
+              style="font-size: 3px; font-family: Major Mono Display; stroke-width: 0.2; stroke: white; letter-spacing: normal; padding: 10px; fill: #252525;"
+              text-anchor="end"
+              x="39"
+            >
+              1.2
+            </tspan>
+          </text>
+        </g>
+        <g
+          role="presentation"
+        >
+          <line
+            role="presentation"
+            shape-rendering="auto"
+            style="stroke: white; fill: transparent; size: 1px;"
+            vector-effect="non-scaling-stroke"
+            x1="50"
+            x2="49"
+            y1="55.12820512820513"
+            y2="55.12820512820513"
+          />
+          <text
+            direction="inherit"
+            dx="0"
+            id="chart-axis-1-tickLabels-6"
+            x="39"
+            y="56.19320512820513"
+          >
+            <tspan
+              dx="0"
+              dy="0"
+              style="font-size: 3px; font-family: Major Mono Display; stroke-width: 0.2; stroke: white; letter-spacing: normal; padding: 10px; fill: #252525;"
+              text-anchor="end"
+              x="39"
+            >
+              1.4
             </tspan>
           </text>
         </g>
@@ -264,9 +326,9 @@ exports[`App renders BarChart 1`] = `
       style="z-index: 99; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"
     >
       <svg
-        height="300"
+        height="150"
         style="overflow: visible; width: 100%; height: 100%;"
-        viewBox="0 0 450 300"
+        viewBox="0 0 450 150"
         width="450"
       />
     </div>

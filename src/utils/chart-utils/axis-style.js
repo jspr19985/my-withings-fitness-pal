@@ -1,7 +1,8 @@
 const fontFamily = "Major Mono Display";
-const fontSize = 10;
+const fontSize = 3;
 const stroke = "white";
-const label = { stroke, fontSize, fontFamily };
+const strokeWidth = 0.2;
+const label = { fontSize, fontFamily, strokeWidth, stroke };
 
 export const axisStyle = {
     axis: { stroke },
